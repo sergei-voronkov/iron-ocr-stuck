@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "iron-ocr-stuck": {
+      "commandName": "Project",
+      "workingDirectory": "./images"
+    }
+  }
+}

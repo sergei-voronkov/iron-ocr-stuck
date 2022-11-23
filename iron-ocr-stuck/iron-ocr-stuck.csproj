@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>iron_ocr_stuck</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IronOcr" Version="2022.11.10109" />
+    <PackageReference Include="IronOcr.ComputerVision.Windows" Version="2022.11.10106" />
+  </ItemGroup>
+
+</Project>
