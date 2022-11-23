@@ -2,8 +2,8 @@
 
 It's very bacis samlple of the IronOCR usage with various images.
 
-The `images/good` directory contains images without recognition problems.
+The `iron-ocr-stuck/images/good` directory contains images without recognition problems.
 
-The `images/stuck` directory conains images with the stuck recognition.
+The `iron-ocr-stuck/images/stuck` directory conains images with the stuck recognition.
 
 IronOCR just gets stuck while trying to recognize one on the images.
