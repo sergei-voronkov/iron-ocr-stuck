@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,8 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IronOcr" Version="2022.11.10109" />
-    <PackageReference Include="IronOcr.ComputerVision.Windows" Version="2022.11.10106" />
+    <PackageReference Include="IronOcr" Version="2022.12.10830" />
   </ItemGroup>
 
 </Project>

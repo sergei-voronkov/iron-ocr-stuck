@@ -21,15 +21,15 @@
                 Language = OcrLanguage.EnglishBest
             };
 
-            foreach (string path in Directory.EnumerateFiles("good", "*.png"))
-            {
-                await RecognizeImageAsync(
-                    ironTesseract,
-                    path);
-            }
+            // foreach (string path in Directory.EnumerateFiles("good", "*.png"))
+            // {
+            //     await RecognizeImageAsync(
+            //         ironTesseract,
+            //         path);
+            // }
 
 
-            foreach (string path in Directory.EnumerateFiles("stuck", "*.png"))
+            foreach (string path in Directory.EnumerateFiles("stuck", "34.png"))
             {
                 await RecognizeImageAsync(
                     ironTesseract,
@@ -48,7 +48,8 @@
                 $"Recognizing: {path}...");
 
             OcrResult tessResult = await ironTesseract.ReadAsync(
-                ocrInput);
+                ocrInput,
+                TimeoutMs: 10 * 1000);
 
             Console.WriteLine(
                 $"Done. Path: {path}. " +
